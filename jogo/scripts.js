@@ -6,6 +6,7 @@ let firstCard, secondCard;
 var time = 0;
 var dados = convertNumber();
 var intervalo;
+
 function convertNumber() {
   var dn = [];
   if(window.localStorage.getItem("dados") != null){

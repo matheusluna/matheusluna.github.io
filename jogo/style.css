@@ -6,13 +6,11 @@
 
 body {
   height: 100vh;
-  display: flex;
-  background-color: #bbdefb;
 }
-
 .memory-game {
   width: 320px;
   height: 320px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -44,7 +42,6 @@ body {
   height: 100%;
   position: absolute;
   border-radius: 10px;
-  background: #1C7CCC;
   backface-visibility: hidden;
 }
 
