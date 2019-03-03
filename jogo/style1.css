@@ -8,8 +8,8 @@
 }
 
 .memory-card {
-    width: calc(25% - 10px);
-    height: calc(25% - 10px);
+    width: calc(33.33333333333% - 10px);
+    height: calc(33.33333333333% - 10px);
     margin: 5px;
     position: relative;
     transform-style: preserve-3d;
@@ -42,4 +42,3 @@
 .front-face {
   transform: rotateY(180deg);
 }
-
