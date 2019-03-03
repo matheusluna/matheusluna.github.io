@@ -1,11 +1,4 @@
-const cards = document.querySelectorAll('.memory-card');
-var contador = 0;
-let hasFlippedCard = false;
-let lockBoard = false;
-let firstCard, secondCard;
-var time = 0;
 var dados = convertNumber();
-var intervalo;
 
 function convertNumber() {
   var dn = [];
