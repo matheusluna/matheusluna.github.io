@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Tenor+Sans&display=swap');
+
+body {
+  font-family: 'Tenor Sans';
+  margin: 0;
+  padding: 0;
+  background: gray;
+}
+
+nav {
+  display: inline-flex;
+  background: white;
+  width: 100%;
+}
+
+nav img {
+  width: 100px;
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.menu{
+  display: inline-block;
+  margin-right: 25px;
+  padding-top: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+.welcome {
+  background: url('../img/banner.png');
+  background-size: cover;
+  text-align: center;
+  height: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.welcome h1 {
+  font-size: 75px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome p {
+  color: white;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.welcome button {
+  background: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 25px;
+
+  border: none;
+  font-family: 'Tenor Sans';
+  font-size: 25px;
+}
+
+.notices {
+  background: white;
+  padding: 50px;
+}
+
+.notices h1 {
+  font-size: 40px;
+}
+
+.notices ul li{
+  display: inline-block;
+
+}
+
+.card {
+  background: cadetblue;
+  width: 250px;
+}
+
+.where {
+  display: inline-flex;
+  background: url('../img/localizacao.png');
+  background-size: cover;
+  width: 100%;
+  color: white;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+.text {
+  width: 50%;
+  padding: 50px;
+}
+
+.text h1{
+  font-size: 40px;
+}
+
+.text span {
+  font-size: 20px;
+}
+
+.map{
+  width: 50%;
+  padding: 50px;
+}
+
+.friends {
+  padding: 50px;
+  background: white;
+}
+
+.friends h1{
+  font-size: 40px;
+}
+
+.friends img {
+  margin: 25px;
+  width: 150px;
+  vertical-align: middle;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  list-style-type: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  padding: 25px;
+}
+
+.dropdown-content li a {
+  font-size: 20px;
+}
+
+.loja {
+  border-radius: 50%;
+}
+
+.reponsability {
+  background: url('../img/responsabilidade.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  color: white;
+}
+
+.text-30 {
+  width: 40%;
+  padding: 50px;
+  text-align: justify;
+}
+.text-30 h1{
+  font-size: 40px;
+}
+
+.text-30 p {
+  font-size: 20px;
+  
+}
+
